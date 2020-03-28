@@ -1,0 +1,10 @@
+type Mutation {
+    editUser(
+        username: String
+        email: String
+        name: String
+        lastName: String
+        bio: String
+        avatar: String
+    ): User!
+}
