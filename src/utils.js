@@ -43,9 +43,5 @@ export const sendSecretMail = (address, secret) => {
 };
 
 
-//mailgun
-//sandbox5678e7dc999f486486741b4377eecd7c.mailgun.org	
-//api key: 8ba0857e0231ecbcb8e591df66208cb8-9a235412-d19ab0f9 
-//domain name: sandbox5678e7dc999f486486741b4377eecd7c.mailgun.org
 
 export const generateToken = (id) => jwt.sign({ id }, process.env.JWT_SECRET );
